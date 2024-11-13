@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    top: 0;
+    left: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#imgPrincipal{
+    width: 100%;
+}
+
+#divTitle{
+    font-family: 'Lora';
+    font-size: 30px;
+    height: 140px;
+}
+
+#divTitle a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    position: relative;
+    font-size: 20px;
+    left: 500px;
+    top: -100px;
+}
+
+.botoes_login{
+    border: solid 0.5px black;
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+
+.botoes_subs{
+    border: solid 0.5px black;
+    padding: 7px;
+    background-color: rgb(2, 116, 182);
+    color: white;
+}
+
+#divNav{
+    padding: 10px;
+}
+
+.botoesNAV{
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+
+.botoesNAV:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#divContainer{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+
+#divContainer2{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+
+#divConteudo1{
+    width: 400px;
+}
+
+#divConteudo2{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+#divNoticia1{
+    border-top: 1px solid grey;
+    padding: 13px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+#divNoticia1 h1 {
+    text-align: center;
+}
+
+#divNoticia1 span {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: justify;
+}
+
+#divNoticia2{
+    display: flex;
+    flex-direction: column;
+}
+
+#divConteudo3{
+    display: flex;
+    flex-direction: row;
+}
+
+#divConteudo4{
+    width: 400px;
+}
+
+#divConteudo5{
+    width: 1040px;
+}
+
+#divConteudo6{
+    width: 400px;
+}
+
+.divItens{
+    padding: 10px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    text-align: left;
+}
+
+.divItens2{
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid grey;
+    width: 80%;
+}
+
+.divItens3{
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 10px;
+    text-align: right;
+}
+
+.divItens4{
+    border-top: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.divItens5{
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.divCoisas{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.titulo{
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.titulo:hover{
+    cursor: pointer;
+    color: rgb(0, 128, 195);
+}
+
+.descricao{
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.divImg{
+    width: 600px;
+    height: 400px;
+}
+
+.rodape{
+    background-color: #F4F4F4;
+    color: black;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: black;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+
+.rodape span{
+    font-size: 20px;
+    color: black;
+}
+
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+#logo{
+    position: relative;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+#logo_pt1{
+    font-size: 40px;
+}
+
+.rodape-Logo{
+    width: calc(100% - 20px);
+    height: auto;
+    background-color: #E9E9E9;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+#rodape-Logo2{
+    width: calc(100% - 20px);
+    background-color: #E9E9E9;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        
+        justify-content: center;
+        align-items: center;
+    }
+}
+.rodape-div-1-coluna{
+    margin-left: 140px;
+    border-left: solid #E9E9E9;
+    padding: 20px;
+}
+
+.rodape-div-2-coluna{
+    margin-left: 100px;
+    border-left: solid #E9E9E9;
+    padding: 20px;
+}
+
+.rodape-div-3-coluna{
+    margin-left: 50px;
+    border-left: solid #E9E9E9;
+    padding: 20px;
+}
+
+.rodape-div-4-coluna{
+    margin-left: 0px;
+    border-left: solid #E9E9E9;
+    padding: 20px;
+}
+
+#div_Img_LogoRodape{
+    width: 200px;
+    height: auto;
+}
+
+.rodape-Logo img{
+    position: relative;
+    width: 180px;
+    height: 80px;
+}
+
+.rodape-div-1-coluna p :hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.rodape-div-2-coluna p :hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.rodape-div-3-coluna p :hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.rodape-div-4-coluna p :hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: #E9E9E9;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: small;
+}
+#Div_RodapeDireitos_pt1 span{
+    font-size: 13px;
+    border-left: solid #CCCCCC 1.5px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: end;
+    
+}
+
+#Div_RodapeDireitos_pt1{
+    width: calc(100% - 20px);
+    background-color: #E9E9E9;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+#Div_RodapeDireitos_pt1 :hover{
+    color: black;
+    font-weight: bold;
+}
+
+.div_Icons{
+    width: 400px;
+    height: 60px;
+    align-items: center;
+    padding: 15px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-left: 700px;
+}
+
+.iconesRedes{
+    cursor: pointer;
+}

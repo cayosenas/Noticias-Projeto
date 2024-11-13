@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Lora';
+    font-size: x-large;
+}
+
+#divContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    padding: 30px;
+    height: 680px;
+}
+
+#divContainer a{
+    text-decoration: none;
+    color: rgb(9, 116, 179);
+}
+
+#divContainer2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 40px;
+    width: 500px;
+}
+
+#divElementos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Roboto';
+}
+
+#divElementos input{
+    padding: 10px;
+    outline: none;
+}
+
+#divElementos button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(9, 116, 179);
+    color: white;
+    transition: 0.3s;
+    font-family: 'Poppins';
+    font-size: large;
+}
+
+#divElementos button:hover{
+    cursor: pointer;
+    background-color: rgb(5, 84, 129);
+}
+
+#divElementos2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    gap: 5px;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 20px;
+    width: 520px;
+}
+
+#divElementos3{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+#divRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#divRodape a{
+    text-decoration: none;
+    color: gray;
+}
+
+#divElementos4{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Roboto';
+}
+
+#divElementos5{
+    font-family: 'Roboto';
+}

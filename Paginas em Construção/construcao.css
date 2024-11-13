@@ -1,0 +1,26 @@
+#container{
+    align-items: center;
+    justify-content: center;
+text-align: center;
+}
+
+
+#meio{
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem_gato{
+    width: 900px;
+    height: 600px;
+}
+
+#site_construcao{
+    font-size: 50px;
+}
+#volte_depois{
+    font-size: 50px;
+}
+#obrigado{
+    font-size: 50px;
+}

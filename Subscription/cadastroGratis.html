@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroPago.css">
+    <script src="cadastroPago.js" defer></script>
+    <title>Sign Up - CL NEWS.</title>
+</head>
+
+<header>
+    <a href="../WSJ.html"><h1>CL NEWS.</h1></a>
+</header>
+
+<body>
+    <div id="container">
+        <div id="dadosPessoais">
+            <h1>Create Your Account</h1>
+            <div class="informations">
+                <input placeholder="First Name" type="text" class="inputPessoais">
+                <input placeholder="Last Name" type="email" class="inputPessoais">
+                <input placeholder="E-mail" type="text" class="inputPessoais" id="email" required>
+                <input placeholder="Password" type="password" id="inputPassword" class="inputPessoais" required>
+                <button id="botaoContinue" disabled>Continue</button>
+            </div>
+        </div>
+
+        <div id="dadosContatos">
+            <h1>Address</h1>
+            <div class="informations">
+                <input placeholder="Postal Code" type="number" id="cepEndereco" class="inputContatos" required>
+                <input placeholder="City" type="text" id="cidadeEndereco" class="inputContatos" required disabled>
+                <input placeholder="Neighborhood" type="text" id="bairroEndereco" class="inputContatos" required disabled>
+                <input placeholder="Phone" type="number" name="" class="inputContatos">
+                <button id="botaoContatos">Continue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

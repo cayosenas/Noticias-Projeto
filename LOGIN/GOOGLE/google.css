@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 249);
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+#divTitle{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: white;
+    padding: 15px;
+    text-align: start;
+    padding-left: 35px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+#divContainer{
+    margin-top: 200px;
+    height: 800px;
+}
+
+#divItens{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    background-color: white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 40px;
+}
+
+#divLogin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+#divItens2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 40px;
+}
+
+#divItens2 label{
+    color: rgb(15, 87, 203);
+}
+
+#divItens2 a{
+    color: rgb(15, 87, 203);
+    text-decoration: none;
+}
+
+#divItens2 p{
+    text-align: justify;
+}
+
+#divItens3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+#divItens3 input{
+    width: 500px;
+    height: 45px;
+}
+
+#divBotoes{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: end;
+}
+
+#divBotoes button:hover{
+    cursor: pointer;
+}
+
+#botaoCriar{
+    color: rgb(15, 87, 203);
+    background-color: white;
+    border: none;
+    font-size: 18px;
+}
+
+#botaoAvancar{
+    color: white;
+    background-color: rgb(15, 87, 203);
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}

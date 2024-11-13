@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lora';
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    padding: 80px;
+    gap: 20px;
+    background-color: rgb(244, 244, 244);
+}
+
+.informations{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+#dadosPessoais{
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    font-family: 'Ubuntu';
+    padding-top: 40px;
+    background-color: white;
+}
+
+.inputPessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: white solid 1px;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    font-size: large;
+    -webkit-appearance: none;
+}
+
+.inputPessoais:focus{
+    border: blue 1px solid;
+    outline: none;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: rgb(183, 25, 25) 1px solid;
+    background-color: rgb(238, 238, 238);
+    font-size: large;
+}
+
+#botaoContinue{
+    padding: 10px;
+    background-color: rgb(9, 116, 179);
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-family: 'Roboto';
+}
+
+#botaoContinue:hover{
+    cursor: pointer;
+    background-color: rgb(5, 84, 129);
+}
+
+#dadosContatos{
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    font-family: 'Ubuntu';
+    padding-top: 40px;
+    background-color: white;
+}
+    
+.inputContatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    font-size: large;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.inputContatos:focus{
+    border: 1px solid blue;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#botaoContatos{
+    padding: 10px;
+    background-color: rgb(9, 116, 179);
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-family: 'Roboto';
+}
+
+#botaoContatos:hover{
+    cursor: pointer;
+    background-color: rgb(5, 84, 129);
+}
+
+#divPayment{
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    font-family: 'Ubuntu';
+    padding-top: 40px;
+    background-color: white;
+}
+
+.inputPayment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    font-size: large;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.inputPayment:focus{
+    border: 1px solid blue;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.inputPayment::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+#botaoPayment{
+    padding: 10px;
+    background-color: rgb(9, 116, 179);
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-family: 'Roboto';
+}
+
+#botaoPayment:hover{
+    cursor: pointer;
+    background-color: rgb(5, 84, 129);
+}
+
+.labelPayment{
+    display: flex;
+    position: relative;
+    left: -100px;
+    width: 200px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
